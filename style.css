@@ -5,7 +5,7 @@
 }
 body{
     text-align: center;
-    background: gray;
+    background: rgb(55, 66, 71);
     font-size: 18px;
 }
 .container{
@@ -24,18 +24,31 @@ input{
 }
 .showdata{
     height: 150px;
-    color: lawngreen;
+    color: rgb(19, 20, 18);
     font-size: 2rem;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 h1{
     font-size: 40px;
-    color: olive;
+    color: rgb(54, 54, 4);
     font-weight: 700;
     font-style: italic;
 }
 footer p{
     font-size: 12px;
     color: rgb(124, 80, 80);
+}
+.form-group input{
+    background-color: rgb(225, 240, 185);
+    border: 2px solid black;
+}
+.form-button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.form-group ::placeholder{
+    color: black;
 }
