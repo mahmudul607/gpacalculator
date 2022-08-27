@@ -1,0 +1,41 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: gray;
+    font-size: 18px;
+}
+.container{
+    
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+}
+.screen-body-item{
+    flex: 1;
+    padding: 50px;
+
+}
+input{
+    margin: 10px 10px 10px;
+}
+.showdata{
+    height: 150px;
+    color: lawngreen;
+    font-size: 2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+h1{
+    font-size: 40px;
+    color: olive;
+    font-weight: 700;
+    font-style: italic;
+}
+footer p{
+    font-size: 12px;
+    color: rgb(124, 80, 80);
+}

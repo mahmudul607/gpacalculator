@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Students GPA Calculator</h1>
+        <div class="screen-body-item">
+            <div class="app">
+                <div class="form-group">
+                    <!-- Input taking section -->
+                    <input type="text"
+                    class="form-control"
+                    placeholder="Physics"
+                    id="phy"
+                    >
+                </div>
+                <div class="form-group">
+                    <input type="text"
+                    class="form-control"
+                    placeholder="English"
+                    id="eng"
+                    >
+                </div>
+                <div class="form-group">
+                    <input type="text"
+                    class="form-control"
+                    placeholder="Mathematics"
+                    id="math"
+                    >
+                </div>
+                <div class="form-group">
+                    <input type="text"
+                    class="form-control"
+                    placeholder="Object Oriented Programming"
+                    id="oop"
+                    >
+                </div>
+                <div>
+                    <input type="button"
+                    value="show Result"
+                    class="form-button"
+                    onclick="calculate()"
+                    
+                    >
+                </div>
+            </div>
+        </div>
+<!-- Showing the result -->
+        <div class="form-group showdata">
+            <p id="showdata"></p>
+            
+        </div>
+
+
+
+
+    </div>
+<footer>
+    <p>@2022, Ms-tech All Rights reserved.</p>
+</footer>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
